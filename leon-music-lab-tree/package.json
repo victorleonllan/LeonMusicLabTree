@@ -9,6 +9,10 @@
     "test": "ng test",
     "serve:ssr:leon-music-lab-tree": "node dist/leon-music-lab-tree/server/server.mjs"
   },
+"engines": {
+    "node": ">=20.11.0"
+  },
+
   "private": true,
   "dependencies": {
     "@angular/common": "^20.0.0",
